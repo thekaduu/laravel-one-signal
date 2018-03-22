@@ -3,7 +3,7 @@
 namespace Services\OneSignal;
 
 use Illuminate\Support\Facades\Facade;
-use Services\OneSignal\OneSignalService as OneSignal;
+use Thekaduu\OneSignal\OneSignalService as OneSignal;
 
 class OneSignalFacade extends Facade
 {
