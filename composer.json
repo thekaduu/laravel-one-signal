@@ -6,6 +6,11 @@
     "require-dev": {
         "phpunit/phpunit": "^7.0"
     },
+    "autoload": {
+        "psr-4": {
+            "Thekaduu\\": "src/"
+        }
+    },
     "license": "MIT",
     "authors": [
         {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Services\OneSignal;
+namespace Thekaduu\OneSignal;
 
-use Services\OneSignal\Response\Notification;
+use Thekaduu\OneSignal\Response\Notification;
 
 class OneSignalService
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Services\OneSignal;
+namespace Thekaduu\OneSignal;
 
 use Illuminate\Support\Facades\Facade;
 use Thekaduu\OneSignal\OneSignalService as OneSignal;

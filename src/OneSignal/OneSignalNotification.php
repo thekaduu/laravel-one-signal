@@ -1,6 +1,6 @@
 <?php
 
-namespace Services\OneSignal;
+namespace Thekaduu\OneSignal;
 
 use App\Models\User;
 

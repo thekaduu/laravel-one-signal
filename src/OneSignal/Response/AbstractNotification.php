@@ -1,6 +1,6 @@
 <?php
 
-namespace Services\OneSignal\Response;
+namespace Thekaduu\OneSignal\Response;
 
 use Illuminate\Support\Collection;
 
