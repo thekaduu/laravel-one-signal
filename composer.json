@@ -1,0 +1,16 @@
+{
+    "name": "thekaduu/laravel-one-signal",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Eduardo L.",
+            "email": "carloseduardolbraz@gmail.com"
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+<?php
+
+namespace Services\OneSignal\Response;
+
+use Illuminate\Support\Collection;
+
+abstract class AbstractNotification
+{
+    protected $admBigPicture;
+    protected $admGroup;
+    protected $admGroupMessage;
+    protected $admLargeIcon;
+    protected $admSmallIcon;
+    protected $admSound;
+    protected $spokenText;
+    protected $alexaSsml;
+    protected $alexaDisplayTitle;
+    protected $amazonBackgroundData;
+    protected $android_accentColor;
+    protected $androidGroup;
+    protected $androidGroupMessage;
+    protected $androidLedColor;
+    protected $androidSound;
+    protected $androidVisibility;
+    protected $appId;
+    protected $bigPicture;
+    protected $buttons;
+    protected $canceled;
+    protected $chromeBigPicture;
+    protected $chromeIcon;
+    protected $chromeWebIcon;
+    protected $chromeWebImage;
+    protected $chromeWebBadge;
+    protected $contentAvailable;
+    protected $contents;
+    protected $androidLedcolor;
+    protected $converted;
+    protected $data;
+    protected $delayedOption;
+    protected $deliveryTimeOfDay;
+    protected $errored;
+    protected $excludedSegments;
+    protected $failed;
+    protected $firefoxIcon;
+    protected $headings;
+    protected $id;
+    protected $includePlayerIds;
+    protected $includedSegments;
+    protected $ioscategory;
+    protected $iosSound;
+    protected $apnsAlert;
+    protected $largeIcon;
+    protected $priority;
+    protected $queuedAt;
+    protected $remaining;
+    protected $sendAfter;
+    protected $smallIcon;
+    protected $successful;
+    protected $tags;
+    protected $filters;
+    protected $templateId;
+    protected $ttl;
+    protected $url;
+    protected $webPushTopic;
+    protected $wpSound;
+    protected $wpWnsSound;
+    protected $androidAccentColor;
+    protected $iosBadgeCount;
+    protected $iosBadgeType;
+    protected $iosCategory;
+    protected $isAdm;
+    protected $isAndroid;
+    protected $isChrome;
+    protected $isChromeWeb;
+    protected $isAlexa;
+    protected $isFirefox;
+    protected $isIos;
+    protected $isSafari;
+    protected $isWP;
+    protected $isWPWNS;
+}
